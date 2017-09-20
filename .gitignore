@@ -31,4 +31,4 @@
 **/._.DS_Store
 
 # Ignore the config directory.
-/config/**/*.yml
+#/config/**/*.yml
