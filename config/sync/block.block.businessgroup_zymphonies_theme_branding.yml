@@ -1,0 +1,25 @@
+uuid: c8bb3c78-368e-4e10-be2f-cddd647cfb81
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - businessgroup_zymphonies_theme
+_core:
+  default_config_hash: cZTgxpeYayUZ6vHIGxZikk3cfeV8MKF72ax3ljQJ38Y
+id: businessgroup_zymphonies_theme_branding
+theme: businessgroup_zymphonies_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

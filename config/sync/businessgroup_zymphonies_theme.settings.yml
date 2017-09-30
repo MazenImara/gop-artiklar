@@ -1,0 +1,23 @@
+features:
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  logo: true
+  name: true
+  node_user_picture: 1
+  slogan: true
+facebook_url: 'https://www.facebook.com/profile.php?id=100010042904090'
+twitter_url: 'https://twitter.com/zymphonies'
+google_plus_url: 'https://plus.google.com/+ZymphoniesTechnologies'
+linkedin_url: 'http://www.linkedin.com/company/zymphonies'
+pinterest_url: 'https://www.pinterest.com/zymphonies/'
+rss_url: rss.xml
+show_social_icon: 1
+show_credit_link: 0
+_core:
+  default_config_hash: 6Q0XBm616t-1D-sOkuYOpim2ph0dBJzRtkxOl_gSpMs
+logo:
+  use_default: 0
+  path: 'public://logo-gop-gr2-300x138.png'
+favicon:
+  use_default: 1

@@ -1,0 +1,25 @@
+uuid: 548cfb67-199a-48e9-8ed7-e61855947229
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f0429241-4e1d-41bb-90a5-33b598b84452'
+  module:
+    - block_content
+  theme:
+    - businessgroup_zymphonies_theme
+id: slideshow
+theme: businessgroup_zymphonies_theme
+region: slideshow
+weight: 0
+provider: null
+plugin: 'block_content:f0429241-4e1d-41bb-90a5-33b598b84452'
+settings:
+  id: 'block_content:f0429241-4e1d-41bb-90a5-33b598b84452'
+  label: slideshow
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
