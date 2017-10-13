@@ -1,0 +1,30 @@
+uuid: c16df749-4403-4c96-9416-48ed90ff1e99
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slide_show_view
+  module:
+    - system
+    - views
+  theme:
+    - businessgroup_zymphonies_theme
+id: pannel_slide_show
+theme: businessgroup_zymphonies_theme
+region: slideshow
+weight: 0
+provider: null
+plugin: 'views_block:slide_show_view-block_1'
+settings:
+  id: 'views_block:slide_show_view-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

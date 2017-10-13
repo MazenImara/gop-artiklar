@@ -1,17 +1,17 @@
-uuid: 2b95c22c-2dc5-4067-957a-db3b5ec83fe2
+uuid: 47ec602f-9548-4597-9235-127262e9acaf
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.product.body
-    - node.type.product
+    - field.field.node.slide.body
+    - node.type.slide
   module:
     - text
     - user
-id: node.product.teaser
+id: node.slide.teaser
 targetEntityType: node
-bundle: product
+bundle: slide
 mode: teaser
 content:
   body:
@@ -25,7 +25,4 @@ content:
   links:
     weight: 100
     region: content
-hidden:
-  field_category: true
-  field_image: true
-  field_images: true
+hidden: {  }

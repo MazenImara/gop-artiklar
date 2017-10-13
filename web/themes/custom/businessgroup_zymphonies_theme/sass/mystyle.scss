@@ -1,0 +1,52 @@
+@import "compass/reset";
+
+
+
+// pannel slide show Block
+#block-pannel-slide-show{
+  .title {
+    background-color: rgba(255, 255, 255, 0.54);
+    width: 500px;
+    top: -143px;
+    font-size: 44px;
+    position: relative;
+    -webkit-animation: topmove 1s ; /* Safari 4.0 - 8.0 */
+    animation: topmove 1s ;
+  }
+  .ingress {
+    font-size: 14px !important;
+    background-color: rgba(255, 255, 255, 0.54);
+    width: 500px;
+    top: -140px;
+    font-size: 44px;
+    position: relative;
+    -webkit-animation: topmove 1s ; /* Safari 4.0 - 8.0 */
+    animation: rightmove 1s ;
+  }
+  /* Safari 4.0 - 8.0 */
+  .title, .ingress {-webkit-animation-timing-function: ease;}
+
+  /* Standard syntax */
+  .title, .ingress {animation-timing-function: ease;}
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes topmove {
+      from {top: -400px;}
+      to {top: -143px;}
+  }
+
+  /* Standard syntax */
+  @keyframes topmove {
+      from {top: -400px;}
+      to {top: -143px;}
+  }
+  @keyframes rightmove {
+      from {left: 400px;}
+      to {left: 0px;}
+  }
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes rightmove {
+      from {left: 400px;}
+      to {left: 0px;}
+  }
+}

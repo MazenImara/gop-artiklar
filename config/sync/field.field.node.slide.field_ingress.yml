@@ -1,0 +1,21 @@
+uuid: c978e56a-f509-4767-9faa-d095acfb61b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingress
+    - node.type.slide
+  module:
+    - text
+id: node.slide.field_ingress
+field_name: field_ingress
+entity_type: node
+bundle: slide
+label: Ingress
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
