@@ -1825,7 +1825,6 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2017-06-07T17:35:30+00:00"
-<<<<<<< HEAD
         },
         {
             "name": "drupal/ctools",
@@ -2043,8 +2042,6 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/token"
             }
-=======
->>>>>>> e55e3cd86d8784ab01ec0249a123da235ea73ca5
         },
         {
             "name": "drush/drush",
