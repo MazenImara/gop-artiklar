@@ -1,0 +1,22 @@
+uuid: 46774f50-42b6-4252-b41f-c7ac0730ac3a
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - businessgroup_zymphonies_theme
+_core:
+  default_config_hash: '-Rl4UzLWcNbP0PEI2Ci5O4IuEYk3yK6Xl9DdJaTLO0M'
+id: businessgroup_zymphonies_theme_search
+theme: businessgroup_zymphonies_theme
+region: search
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

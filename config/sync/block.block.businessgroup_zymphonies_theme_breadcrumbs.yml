@@ -1,0 +1,22 @@
+uuid: bae3c91f-b23e-4dec-a990-ba426e4b6a3b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - businessgroup_zymphonies_theme
+_core:
+  default_config_hash: 8hFnuAR_exGkng3kwI3vUa1WD6tx-nvOyhaiIWtwFKk
+id: businessgroup_zymphonies_theme_breadcrumbs
+theme: businessgroup_zymphonies_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

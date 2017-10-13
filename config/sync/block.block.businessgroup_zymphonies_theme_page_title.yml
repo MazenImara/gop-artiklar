@@ -1,0 +1,20 @@
+uuid: 93682e1c-97bd-47d6-944b-510fdb234e51
+langcode: en
+status: false
+dependencies:
+  theme:
+    - businessgroup_zymphonies_theme
+_core:
+  default_config_hash: a1zoZxtJ4zZCNF9GWNbKX-n_z1eaCMUAFgo4VxZ_ZkQ
+id: businessgroup_zymphonies_theme_page_title
+theme: businessgroup_zymphonies_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
